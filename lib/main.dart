@@ -45,7 +45,7 @@ class _LoginPageState extends State<LoginPage> {
                             top: 0,
                             child: Text(
                               "Cancle",
-                              style: TextStyle(color: Color(0xffcbd4e6),fontSize: 18,fontWeight: FontWeight.w500),
+                              style: TextStyle(color: Color(0xffcbd4e6),fontSize: 16,fontWeight: FontWeight.w500),
                             ),
                           ),
                           Container(
@@ -53,7 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                             width: double.maxFinite,
                             child: Text(
                               "Registration",
-                              style: TextStyle(color: Color(0xffdde3f0),fontSize: 18,fontWeight: FontWeight.w500),
+                              style: TextStyle(color: Color(0xffdde3f0),fontSize: 16,fontWeight: FontWeight.w500),
                             ),
                           )
                         ],
@@ -80,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                                             "MQL",
                                             style: TextStyle(
                                               fontFamily: "Roboto_Bold",
-                                              fontSize: 24,
+                                              fontSize: 22,
                                               color: Color(0xfffcfdfd),
                                             ),
                                           ),
@@ -88,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
                                             "5",
                                             style: TextStyle(
                                               fontFamily: "Roboto_Bold",
-                                              fontSize: 24,
+                                              fontSize: 22,
                                               color: Color(0xfff5d72e),
                                             ),
                                           ),
@@ -101,7 +101,7 @@ class _LoginPageState extends State<LoginPage> {
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           fontFamily: "Roboto-Regular",
-                                          fontSize: 22,
+                                          fontSize: 20,
                                           color: Color(0xffd1dbec),
                                         ),
                                       ),
