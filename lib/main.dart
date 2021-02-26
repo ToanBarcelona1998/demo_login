@@ -7,6 +7,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: "Roboto"
+      ),
       debugShowCheckedModeBanner: false,
       home: LoginPage(),
     );
@@ -53,8 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(
                           color: Color(0xffdce3f0),
                           fontSize: 16,
-                          fontWeight: FontWeight.w600,
-                          fontFamily: "Roboto-Regular"),
+                          fontWeight: FontWeight.w600,),
                     ),
                   ),
                 ],
@@ -73,7 +75,6 @@ class _LoginPageState extends State<LoginPage> {
                             text: "MQL",
                             style: TextStyle(
                               fontSize: 26,
-                              fontFamily: "Roboto_Bold",
                               color: Color(0xfffdfefe),
                               fontWeight: FontWeight.w900
                             ),
@@ -83,7 +84,6 @@ class _LoginPageState extends State<LoginPage> {
                             style: TextStyle(
                               fontWeight: FontWeight.w900,
                               fontSize: 29,
-                              fontFamily: "Roboto-Regular",
                               color: Color(0xffefd335),
                             ),
                           ),
@@ -98,7 +98,7 @@ class _LoginPageState extends State<LoginPage> {
                             color: Color(0xffdde5f1),
                             fontSize: 22,
                             fontWeight: FontWeight.w400,
-                            fontFamily: " Roboto-Regular"),
+                        ),
                       ),
                       SizedBox(
                         height: 25,
