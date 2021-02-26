@@ -92,8 +92,7 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(
                         height: 15,
                       ),
-                      Text(
-                        "Join Traders Community www.mql5.com",
+                      Text("Join Traders Community\nwww.mql5.com",
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: Color(0xffdde5f1),
@@ -169,7 +168,7 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(
                         height: 10,
                       ),
-                      Text("The password for your MQL5 account will be sent to the specifield email address",
+                      Text("The password for your MQL5\naccount will be sent to the specifield email\naddress",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 14,
