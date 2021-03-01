@@ -96,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                             color: Color(0xffdde5f1),
-                            fontSize: 22,
+                            fontSize: 20,
                             fontWeight: FontWeight.w400,
                         ),
                       ),
@@ -117,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
                                   suffixIcon: Padding(
                                     padding: const EdgeInsets.all(15),
                                     child: Text(
-                                      "Enter mail".toLowerCase(),
+                                      "Enter login".toLowerCase(),
                                       style:
                                           TextStyle(color: Color(0xffdadde0)),
                                     ),
@@ -146,7 +146,7 @@ class _LoginPageState extends State<LoginPage> {
                                   suffixIcon: Padding(
                                     padding: const EdgeInsets.all(15),
                                     child: Text(
-                                      "Enter pass".toLowerCase(),
+                                      "email".toLowerCase(),
                                       style:
                                           TextStyle(color: Color(0xffdadde0)),
                                     ),
