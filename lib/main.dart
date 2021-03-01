@@ -117,7 +117,7 @@ class _LoginPageState extends State<LoginPage> {
                                   suffixIcon: Padding(
                                     padding: const EdgeInsets.all(15),
                                     child: Text(
-                                      "Enter login".toLowerCase(),
+                                      "enter login".toLowerCase(),
                                       style:
                                           TextStyle(color: Color(0xffdadde0)),
                                     ),
